@@ -13,10 +13,10 @@ public class FirstController {
     public ModelAndView firstPage()
     {
       Date dateAndTime = new Date();
-//      String firstString = "";
+      String firstString = "turrrr";
         System.out.println("running");
         // TODO We will use a proper view resolver very quickly
-        return new ModelAndView("welcome", "dateAndTime", dateAndTime);
+        return new ModelAndView("welcome", "dateAndTime", firstString);
 
 
    //     return new ModelAndView("/WEB-INF/jsp/welcome.jsp");
